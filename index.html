@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon UI</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+
+            <button class="menu-btn">
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <img
+                src="https://1000logos.net/wp-content/uploads/2017/05/Pokemon-Logo.png"
+                alt="Pokemon Logo"
+                class="logo"
+            >
+
+            <button class="theme-btn">
+                <i class="ri-sun-line"></i>
+            </button>
+
+        </header>
+
+        <section class="search-section">
+
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input
+                    type="text"
+                    placeholder="Search for a Pokémon..."
+                >
+            </div>
+
+            <div class="filter-box">
+
+                <select>
+                    <option>Filter by Types</option>
+                    <option>Grass</option>
+                    <option>Fire</option>
+                    <option>Water</option>
+                    <option>Electric</option>
+                </select>
+
+                <button class="sort-btn">
+                    <i class="ri-filter-3-line"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="card-container">
+
+            <div class="card card-green">
+                <button class="fav-btn">
+                    <i class="ri-heart-line"></i>
+                </button>
+
+                <span class="number">#0908</span>
+
+                <img
+                    src="https://imgs.search.brave.com/ncY5YBT9ZHnrrU9y-dnfZJ6EIFt9-DRkWPD6kE5JEFE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuemVyb2NoYW4u/bmV0L01lb3dzY2Fy/YWRhLjEwMjQuMzg3/NDk5MS53ZWJw"
+                    alt=""
+                >
+
+                <h2>Meowscarada</h2>
+
+                <span class="type grass">Grass</span>
+
+                <button class="arrow-btn">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <div class="card card-grey">
+                <button class="fav-btn">
+                    <i class="ri-heart-line"></i>
+                </button>
+
+                <span class="number">#0624</span>
+
+                <img
+                    src="https://imgs.search.brave.com/6b3iyimCJUpg9NwbVcm-F17c6G57fz-CkPbHLqz1lys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/cmFua2VkYm9vc3Qu/Y29tL3dwLWNvbnRl/bnQvcGx1Z2lucy9r/LVBva2Vtb24vYXNz/ZXRzL3Nwcml0ZXMt/b2ZmaWNpYWwvcGF3/bmlhcmQucG5n"
+                    alt=""
+                >
+
+                <h2>Pawniard</h2>
+
+                <span class="type steel">Dark / Steel</span>
+
+                <button class="arrow-btn">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <div class="card card-orange">
+                <button class="fav-btn">
+                    <i class="ri-heart-line"></i>
+                </button>
+
+                <span class="number">#0229</span>
+
+                <img
+                    src="https://imgs.search.brave.com/d06p2VZqzprgbiqPE8x6BVkDljclTkdRFf1lku3oRaY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvMjIvSG91/bmRvb20tUG9rZW1v/bi1UcmFuc3BhcmVu/dC1JbWFnZXMtUE5H/LnBuZw"
+                    alt=""
+                >
+
+                <h2>Houndoom</h2>
+
+                <span class="type fire">Dark / Fire</span>
+
+                <button class="arrow-btn">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+            <div class="card card-blue">
+                <button class="fav-btn">
+                    <i class="ri-heart-line"></i>
+                </button>
+
+                <span class="number">#0686</span>
+
+                <img
+                    src="https://imgs.search.brave.com/UK0_SHavcGuDkEgo4O3DxqlGUqq2xpaAeqPYbRaUUbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5ncGxheS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzExL0lu/a2F5LVBva2Vtb24t/QmFja2dyb3VuZC1Q/TkctSW1hZ2UucG5n"
+                    alt=""
+                >
+
+                <h2>Inkay</h2>
+
+                <span class="type water">Dark / Psychic</span>
+
+                <button class="arrow-btn">
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="features">
+
+            <div class="feature">
+                <i><img src="https://www.lladro.com/media/wysiwyg/landings/pokemon/decoration.svg" alt="explore"></i>
+                <div>
+                    <h4>Explore</h4>
+                    <p>Discover all your favorite Pokémon</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="ri-leaf-line"></i>
+                <div>
+                    <h4>Filter</h4>
+                    <p>Find Pokémon by types and abilities</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="ri-star-line"></i>
+                <div>
+                    <h4>Collection</h4>
+                    <p>Save and manage your collection</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="ri-bar-chart-line"></i>
+                <div>
+                    <h4>Stats</h4>
+                    <p>View stats and learn about Pokémon</p>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer-logo">
+                <img src="https://www.lladro.com/media/wysiwyg/landings/pokemon/decoration.svg" alt="footer-logo">
+            </div>
+            <p>&copy; 2024 Pokémon. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
